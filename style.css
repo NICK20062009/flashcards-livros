@@ -1,0 +1,57 @@
+
+/* Estilo para o tema romance */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #400000;
+}
+
+.header {
+    background-color: #ff4d4d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #800000;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e60000;
+}
+
+.quiz-section {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    background-color: #ff4d4d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

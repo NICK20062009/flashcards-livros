@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Study Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Bem-vindo à Ferramenta de Estudos</h1>
+        <p>Explore o conhecimento com um toque de romance!</p>
+    </header>
+    <main class="main-content">
+        <section class="intro">
+            <h2>Aprenda de forma interativa</h2>
+            <p>Teste seus conhecimentos sobre livros de romance clássicos.</p>
+            <button onclick="startQuiz()">Começar Quiz</button>
+        </section>
+        <section id="quiz-section" class="quiz-section hidden">
+            <h2>Quiz de Livros de Romance</h2>
+            <div id="question-container"></div>
+            <button id="next-btn" class="hidden" onclick="nextQuestion()">Próxima Pergunta</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Ferramenta de Estudos Interativa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
